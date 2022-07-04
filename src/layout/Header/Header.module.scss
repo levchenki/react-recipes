@@ -1,0 +1,22 @@
+header {
+  background-color: #62dafb;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+
+  & > a {
+    font-size: 35px;
+  }
+
+  & > ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    &>li{
+      padding: 0 1rem;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import "_reset.scss";
+
+body {
+    margin: 0;
+    font-family: "JetBrains Mono", serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.content {
+    min-height: calc(100vh - 81.5px - 84px - 48px);
+    padding: 1.5rem 0;
+}
+
+button {
+    background-color: #75e7ff;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #00d6ff;
+    color: white;
+    transform: scale(1.1);
+}
+
+img, iframe{
+    max-width: 100%;
+}
+
+iframe{
+    width: 600px;
+    height: 350px;
+}
